@@ -3,6 +3,6 @@ count = 0
 while num > 0:
     if num % 49 <= 9:
         count += 1
-        num = num // 49
+    num = num // 49
 print(count)
 #не выполняется

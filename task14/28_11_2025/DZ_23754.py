@@ -4,7 +4,7 @@ for x in range(2,3001):
     while num > 0:
         if num % 11 == 0:
             count += 1
-            num //= 11
+        num //= 11
     if count == 60:
         print(x)
         break
