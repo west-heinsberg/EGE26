@@ -10,3 +10,4 @@ for val in product(alph, repeat = 6):
    if val[0] + val[1] == 'ЖС':
        print(count)
        break
+#1793

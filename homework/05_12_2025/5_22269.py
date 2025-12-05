@@ -24,5 +24,13 @@ for n in range(1, 10000):
     if r_v < 1922:
         res.append((r_v, n))
 
-print(res)
+print(res) # перв способ
+#второй: max_R = max(ans)[0] - имею право тк анс это список из 2 элементов и макс выбирает сначала макс первого числа потом второго
+# max_r= []
+#all_N = []
+# через подбор :
+#for R,N in ans:
+#   if R == max_R:
+#     all_N.append(N)
+#print(min(all_N))
 #(497, 9) => 9
