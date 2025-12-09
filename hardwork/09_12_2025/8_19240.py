@@ -1,0 +1,10 @@
+from itertools import product
+
+cnt = 0
+alph = sorted('ЯНВАРЬ')
+
+for pos, val in enumerate(product(alph,repeat=5),start=1):
+    val = ''.join(val)
+    if val[0] != 'Я' and val.count('Ь') < 2 and 'ЯЯ' not in val:
+        print(pos)
+
