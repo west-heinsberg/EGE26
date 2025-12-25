@@ -22,4 +22,4 @@ while z:
         cnt_c += 1
     z //= 14
 
-print(abs(cnt_b + cnt_c))
+print(abs(cnt_b - cnt_c))

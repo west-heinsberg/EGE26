@@ -28,8 +28,8 @@ for i in range(6):
 update()
 
 up()
-for x in range(-10, 40):
-    for y in range(-25, 40):
+for x in range(4, 27):
+    for y in range(-19, -9):
         goto(x * m, y * m)
         dot(3, 'red')
 

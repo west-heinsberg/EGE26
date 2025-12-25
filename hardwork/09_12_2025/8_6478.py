@@ -10,8 +10,11 @@ for val in product(alph,repeat=5):
 print(cnt)
 
 ##############################
-for val in pro(sorted('МОЛЬ'),repeat=5):
+
+cnt1 = 0
+
+for val in product(sorted('МОЛЬ'),repeat=5):
     val = ''.join(val) # обязательно соединяем тк ищем буквы
     if 'ОЬ' not in val and  'ЬЬ' not in val and val[0] != 'Ь':
-        cnt += 1
-print(cnt)
+        cnt1 += 1
+print(cnt1)
