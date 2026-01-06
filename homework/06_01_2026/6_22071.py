@@ -1,0 +1,24 @@
+from turtle import *
+screensize(3000,3000)
+tracer(False)
+m = 15
+pd()
+fd(30*m), lt(60), fd(24*m), rt(240)
+fd(54*m), lt(120), fd(24*m), lt(60)
+pu()
+fd(30*m), rt(90), fd(20*m), lt(90)
+pd()
+for i in range(17):
+    fd(6*m)
+    lt(90)
+    fd(80*m)
+    lt(90)
+pu()
+for x in range(-60,60):
+    for y in range(-30,30):
+        goto(x*m, y*m)
+        dot(3,'red')
+
+update()
+done()
+#49
