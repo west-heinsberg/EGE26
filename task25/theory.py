@@ -34,3 +34,13 @@ for l in range(0, 4):
 
 for i in sorted(ans):
     print(*i)
+
+###############################################
+# 03.02.2026
+# проверка чисел на простоту (у числа ровно два делителя)
+def is_prime(num):
+    if num < 2: return False # из-за проблем с нулём и числами меньше
+    for i in range(2, int(num ** .5) + 1):
+        if num % i == 0:
+            return False
+    return True
